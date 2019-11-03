@@ -1,0 +1,145 @@
+body{padding-top:30px;}
+
+.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
+
+small {
+display: block;
+line-height: 1.428571429;
+color: #999;
+}
+
+
+.wrapper { 
+   text-align: center;
+}
+
+
+
+.active-cyan-4 input[type=text] {
+	border: 1px solid #4dd0e1;
+	box-shadow: 0 0 0 1px #4dd0e1;
+}
+
+#header {
+  text-align:center;
+}
+
+.required {
+  color: red;
+}
+
+.custab{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+    }
+.custab:hover{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+    }
+    
+.PersonBorder
+{
+  border:thin black solid;
+  margin:20px;
+  padding:20px;
+}
+
+
+table {
+            width: 70%;
+            font: 17px Calibri;
+        }
+table, th, td {
+            
+            padding: 15px 8px;
+            text-align: center;
+        }
+
+
+.container {
+            width: 500px;
+            margin: 100px auto;
+        }
+input {
+         width: 150px;
+         font-size: 18px;
+         margin: 30px;
+         padding: 10px;
+     }
+.remove {
+         width: 30px;
+         height: 30px;
+         font-size: 20px;
+         background-color: tomato;
+         color: white;
+         border: none;
+         border-radius: 15px;
+     }
+#search {
+         width: 100px;
+         height: 35px;
+         font-size: 16px;
+         background-color: #33CCFF;
+         color: white;
+        
+         border-radius:5px;
+		 border:1px solid #337bc4;
+		 display:inline-block;
+         margin: 3px;
+     }
+     
+
+#addRow {
+         width: 130px;
+         height: 40px;
+         font-size: 16px;
+         background-color: lightseagreen;
+         color: white;
+         border: none;
+         margin: 20px;
+     }
+     
+#submit_a {
+         width: 200px;
+         height: 50px;
+         font-size: 20px;
+         background-color: #60a3bc;
+         padding: 10px;
+		 border-radius: 50px;
+         color: white;
+         display: inline-block;
+		 border: none;
+		 transition: all 0.4s ease 0s;
+         margin: 20px;
+     }
+#submit_a:hover {
+		text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+		-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		transition: all 0.4s ease 0s;
+}
+     
+     button:hover {
+         cursor: pointer;
+     }
+     tr:hover {
+         cursor: move;
+     }
+
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:50%;
+width:50%;
+position:absolute;
+}
