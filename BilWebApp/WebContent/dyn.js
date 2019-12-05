@@ -1,9 +1,20 @@
-
+$(function() {
+	    $("div.bhoechie-tab-menu>ul.list-group>a").click(function(e) {
+	        e.preventDefault();
+	        $(this).siblings('a.active').removeClass("active");
+	        $(this).addClass("active");
+	        var index = $(this).index();
+	        $("div.bhoechie-tab>div.bhoechie-tab-content").removeClass("active");
+	        $("div.bhoechie-tab>div.bhoechie-tab-content").eq(index).addClass("active");
+	    });
+	});
 var OneRow ='<tr><td><input type="text" class="form-control" name="Reg_num" placeholder="Reg Nummer"></td><td><input type="text" class="form-control" name="Merke"  placeholder="Merke"></td><td><input type="text" class="form-control" name="Model" placeholder="Model"></td><td><button class="remove">-</button></td></tr>';
 
 function AddRowBtn(){
 		$('tbody').append(OneRow);
 }
+
+33
 
 
 $(function() {

@@ -4,7 +4,7 @@
 <html>
 <head >
 		<meta charset="ISO-8859-1">
-		<title> Toyota Tr. </title>
+		<title> Register </title>
 		<link rel="stylesheet" type="text/css" href="mainCSS.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
 		
@@ -18,7 +18,7 @@
 		<h1 id="header" class="p-3 mb-2 bg-primary text-white "> Toyota Harila Tromsø </h1>
 		<p class="text-center"><i>Skattørvegen 44, 9018 Tromsø</i></p>
 	<div class="wrapper">
-		<a href="FirstPage.jsp" role="button" class="btn btn-info">Bak til hjemmeside</a>
+		<a href="HjemmeSide.jsp" role="button" class="btn btn-info">Bak til hjemmeside</a>
 	</div>
 	<!-- Search form -->
 	<form method="post" action="ServletSearch">

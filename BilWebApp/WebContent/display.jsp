@@ -1,5 +1,3 @@
-
-
 <html> 
   <head> 
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
@@ -13,8 +11,8 @@
   <body> 
 
 
-<a href="FirstPage.jsp" role="button" align-items: center  class="btn btn-success">Bak til hjemmeside</a>
-<a href="HomePage.jsp" role="button" align-items: center class="btn btn-success">Bak til registrering</a>
+<a href="HjemmeSide.jsp" role="button" align-items: center  class="btn btn-success"> Hjemmeside</a>
+<a href="Register.jsp" role="button" align-items: center class="btn btn-success"> Registrer Ny Kunde</a>
 
 <div class="container">
     <div class="row">

@@ -1,0 +1,32 @@
+
+#navn,#Bestille {
+	padding-top: 30px;
+    padding-left: 40px;
+}
+
+#tlf,#epost,#reg_nr,#cal,#selectOne{
+	padding-top: 10px;
+    padding-left: 40px;
+}
+
+
+  
+ #left {
+    float: left;
+    width: 50%;
+ 	overflow-x: hidden;
+    height: 100%;
+    
+}
+#right {
+    float: left;
+    width: 50%;
+    height: 100%;
+    overflow-x: hidden;
+    padding-top: 70px;
+
+}
+#map {
+	width: 150%;
+    height: 180%;
+}
